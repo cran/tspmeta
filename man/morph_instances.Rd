@@ -2,7 +2,7 @@
 \alias{morph_instances}
 \title{Morphing (convex-combination) of two instances with parameter alpha.}
 \usage{
-  morph_instances(x, y, alpha)
+morph_instances(x, y, alpha)
 }
 \arguments{
   \item{x}{[\code{\link{tsp_instance}}]\cr}
@@ -13,11 +13,11 @@
   convex combination.}
 }
 \value{
-  [\code{\link{tsp_instance}}] Morphed TSP instance.
+[\code{\link{tsp_instance}}] Morphed TSP instance.
 }
 \description{
-  Pairs of cities are matched in a greedy fashion, see
-  \code{\link{greedy_point_matching}}.
+Pairs of cities are matched in a greedy fashion, see
+\code{\link{greedy_point_matching}}.
 }
 \examples{
 x = random_instance(10)

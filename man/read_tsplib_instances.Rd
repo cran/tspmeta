@@ -3,9 +3,8 @@
 \title{Read in multiple TSPLIB style Traveling Salesman Problems
 from a directory.}
 \usage{
-  read_tsplib_instances(path, pattern = "*.tsp",
-    max_size = 1000, use_names = TRUE,
-    on_no_coords = "stop")
+read_tsplib_instances(path, pattern = "*.tsp", max_size = 1000,
+  use_names = TRUE, on_no_coords = "stop")
 }
 \arguments{
   \item{path}{[\code{character(1)}]\cr Character string
@@ -28,10 +27,10 @@ from a directory.}
   which either stop or raise a warning respectivly.}
 }
 \value{
-  A \code{list} List of \code{tsp_instance} objects.
+A \code{list} List of \code{tsp_instance} objects.
 }
 \description{
-  Read in multiple TSPLIB style Traveling Salesman Problems
-  from a directory.
+Read in multiple TSPLIB style Traveling Salesman Problems
+from a directory.
 }
 

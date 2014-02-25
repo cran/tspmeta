@@ -2,7 +2,7 @@
 \alias{feature_bounding_box}
 \title{Bounding box features.}
 \usage{
-  feature_bounding_box(x, distance_fraction = 0.1)
+feature_bounding_box(x, distance_fraction = 0.1)
 }
 \arguments{
   \item{x}{[\code{\link{tsp_instance}}]\cr TSP instance.}
@@ -11,10 +11,10 @@
   ratio to bounding box.}
 }
 \value{
-  [\code{list}].
+[\code{list}].
 }
 \description{
-  Determines the ratio of cities which lie within a certain
-  distance to the bounding box.
+Determines the ratio of cities which lie within a certain
+distance to the bounding box.
 }
 

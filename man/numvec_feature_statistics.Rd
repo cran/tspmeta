@@ -2,7 +2,7 @@
 \alias{numvec_feature_statistics}
 \title{Computes statistics from a vector of of values.}
 \usage{
-  numvec_feature_statistics(x, name, na.rm = TRUE)
+numvec_feature_statistics(x, name, na.rm = TRUE)
 }
 \arguments{
   \item{x}{[\code{numeric}]\cr Numeric vector.}
@@ -14,11 +14,11 @@
   \code{x} be removed?  Default is \code{TRUE}.}
 }
 \value{
-  [\code{list}] Elements are named <name_statistic>.
+[\code{list}] Elements are named <name_statistic>.
 }
 \description{
-  E.g. computes features from distribution of distance.
-  Computed statistics: min, median, mean, max, sd, span,
-  coeff_of_var.
+E.g. computes features from distribution of distance.
+Computed statistics: min, median, mean, max, sd, span,
+coeff_of_var.
 }
 

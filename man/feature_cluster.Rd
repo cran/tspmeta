@@ -2,7 +2,7 @@
 \alias{feature_cluster}
 \title{Cluster features.}
 \usage{
-  feature_cluster(x, epsilon)
+feature_cluster(x, epsilon)
 }
 \arguments{
   \item{x}{[\code{\link{tsp_instance}}]\cr TSP instance.}
@@ -13,10 +13,10 @@
   algorithm.}
 }
 \value{
-  [\code{list}].
+[\code{list}].
 }
 \description{
-  Determines the number of clusters and the mean distances
-  from all cities in a cluster to its centroid.
+Determines the number of clusters and the mean distances
+from all cities in a cluster to its centroid.
 }
 

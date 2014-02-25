@@ -2,7 +2,7 @@
 \alias{run_solver}
 \title{Runs a solver on a TSP instance.}
 \usage{
-  run_solver(x, method, ...)
+run_solver(x, method, ...)
 }
 \arguments{
   \item{x}{[\code{\link{tsp_instance}}]\cr TSP instance.}
@@ -15,19 +15,19 @@
   \item{...}{[any]\cr Control parameters for solver.}
 }
 \value{
-  [\code{\link[TSP]{TOUR}}] TOUR object from package TSP,
-  containing order of cities, tour length and method name
-  that generated this solution.
+[\code{\link[TSP]{TOUR}}] TOUR object from package TSP,
+containing order of cities, tour length and method name
+that generated this solution.
 }
 \description{
-  Currently the following solvers are supported:
-  nearest_insertion: See \code{\link[TSP]{solve_TSP}}.
-  farthest_insertion : See \code{\link[TSP]{solve_TSP}}.
-  cheapest_insertion : See \code{\link[TSP]{solve_TSP}}.
-  arbitrary_insertion: See \code{\link[TSP]{solve_TSP}}.
-  nn: See \code{\link[TSP]{solve_TSP}}.  repetitive_nn: See
-  \code{\link[TSP]{solve_TSP}}.  concorde: See
-  \code{\link[TSP]{solve_TSP}}.
+Currently the following solvers are supported:
+nearest_insertion: See \code{\link[TSP]{solve_TSP}}.
+farthest_insertion : See \code{\link[TSP]{solve_TSP}}.
+cheapest_insertion : See \code{\link[TSP]{solve_TSP}}.
+arbitrary_insertion: See \code{\link[TSP]{solve_TSP}}.  nn:
+See \code{\link[TSP]{solve_TSP}}.  repetitive_nn: See
+\code{\link[TSP]{solve_TSP}}.  concorde: See
+\code{\link[TSP]{solve_TSP}}.
 }
 \examples{
 x = random_instance(10)

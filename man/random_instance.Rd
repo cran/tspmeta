@@ -2,7 +2,7 @@
 \alias{random_instance}
 \title{Generates a random TSP instance by scattering random points in a hypercube.}
 \usage{
-  random_instance(size, d = 2, lower = 0, upper = 1)
+random_instance(size, d = 2, lower = 0, upper = 1)
 }
 \arguments{
   \item{size}{[\code{integer(1)}]\cr Number of cities.}
@@ -17,10 +17,10 @@
   for hypercube.  Default is 1.}
 }
 \value{
-  [\code{\link{tsp_instance}}].
+[\code{\link{tsp_instance}}].
 }
 \description{
-  Generates a random TSP instance by scattering random
-  points in a hypercube.
+Generates a random TSP instance by scattering random points
+in a hypercube.
 }
 

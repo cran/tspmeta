@@ -2,7 +2,7 @@
 \alias{rotate_instance}
 \title{Rotate the cities of a TSP instance around a point.}
 \usage{
-  rotate_instance(instance, angle, center)
+rotate_instance(instance, angle, center)
 }
 \arguments{
   \item{instance}{[\code{\link{tsp_instance}}]\cr TSP
@@ -16,9 +16,9 @@
   mass of the cities.}
 }
 \value{
-  [\code{\link{tsp_instance}}] New TSP instance.
+[\code{\link{tsp_instance}}] New TSP instance.
 }
 \description{
-  Rotate the cities of a TSP instance around a point.
+Rotate the cities of a TSP instance around a point.
 }
 

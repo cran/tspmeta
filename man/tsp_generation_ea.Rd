@@ -2,11 +2,10 @@
 \alias{tsp_generation_ea}
 \title{TSP generating EA.}
 \usage{
-  tsp_generation_ea(fitness_function, pop_size = 30L,
-    inst_size = 50L, generations = 100L, time_limit = 30L,
-    uniform_mutation_rate, normal_mutation_rate,
-    normal_mutation_sd, cells_round = 100L, rnd = TRUE,
-    ...)
+tsp_generation_ea(fitness_function, pop_size = 30L, inst_size = 50L,
+  generations = 100L, time_limit = 30L, uniform_mutation_rate,
+  normal_mutation_rate, normal_mutation_sd, cells_round = 100L, rnd = TRUE,
+  ...)
 }
 \arguments{
   \item{fitness_function}{[\code{function(x, ...)}]\cr
@@ -44,11 +43,11 @@
   \item{...}{[any]\cr Not used.}
 }
 \value{
-  [\code{list}] List containing best individual form the
-  last population, its fitness value, the genrational
-  fitness and the last population.  Default is 50.
+[\code{list}] List containing best individual form the last
+population, its fitness value, the genrational fitness and
+the last population.  Default is 50.
 }
 \description{
-  TSP generating EA.
+TSP generating EA.
 }
 

@@ -3,9 +3,9 @@
 \alias{rescale_instance}
 \title{Rescale coords of TSP instance to \eqn{[0,1]^2}.}
 \usage{
-  rescale_instance(x)
+rescale_instance(x)
 
-  rescale_coords(coords)
+rescale_coords(coords)
 }
 \arguments{
   \item{x}{[\code{\link{tsp_instance}}]\cr TSP instance.}
@@ -14,11 +14,11 @@
   coordinates, rows denote cities.}
 }
 \value{
-  [\code{matrix}] for \code{rescale_coords} and
-  \code{tsp_instance} for \code{rescale_instance}.  Numeric
-  matrix of scaled city coordinates.
+[\code{matrix}] for \code{rescale_coords} and
+\code{tsp_instance} for \code{rescale_instance}.  Numeric
+matrix of scaled city coordinates.
 }
 \description{
-  Rescale coords of TSP instance to \eqn{[0,1]^2}.
+Rescale coords of TSP instance to \eqn{[0,1]^2}.
 }
 

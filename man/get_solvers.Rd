@@ -2,12 +2,12 @@
 \alias{get_solvers}
 \title{Returns integrated solver names.}
 \usage{
-  get_solvers()
+get_solvers()
 }
 \value{
-  [\code{character}].
+[\code{character}].
 }
 \description{
-  Returns integrated solver names.
+Returns integrated solver names.
 }
 

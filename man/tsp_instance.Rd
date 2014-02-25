@@ -2,7 +2,7 @@
 \alias{tsp_instance}
 \title{Generates a TSP instance S3 object either from city coordinates.}
 \usage{
-  tsp_instance(coords, dists)
+tsp_instance(coords, dists)
 }
 \arguments{
   \item{coords}{[\code{matrix}]\cr Numeric matrix of city
@@ -14,10 +14,10 @@
   coordinates.}
 }
 \value{
-  [\code{\link{tsp_instance}}].
+[\code{\link{tsp_instance}}].
 }
 \description{
-  Generates a TSP instance S3 object either from city
-  coordinates.
+Generates a TSP instance S3 object either from city
+coordinates.
 }
 

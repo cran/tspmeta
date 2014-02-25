@@ -2,7 +2,7 @@
 \alias{autoplot.tsp_instance}
 \title{Plot TSP instance.}
 \usage{
-  \method{autoplot}{tsp_instance} (object, opt_tour, ...)
+\method{autoplot}{tsp_instance}(object, opt_tour, ...)
 }
 \arguments{
   \item{object}{[\code{\link{tsp_instance}}]\cr TSP
@@ -15,9 +15,9 @@
   \item{...}{[any]\cr Not used.}
 }
 \value{
-  [\code{\link[ggplot2]{ggplot}}].
+[\code{\link[ggplot2]{ggplot}}].
 }
 \description{
-  Plot TSP instance.
+Plot TSP instance.
 }
 
