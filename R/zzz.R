@@ -1,4 +1,8 @@
+#' @import stats
+#' @import utils
+#' @importFrom grDevices chull
 #' @import BBmisc
+#' @import checkmate
 #' @import stringr
 #' @import TSP
 #' @import MASS
